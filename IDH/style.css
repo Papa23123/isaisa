@@ -1,0 +1,178 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: #F0D6D6;
+}
+
+.arriba{
+   background-color: #711212;
+   width: 2071px;
+   height: 70px;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.fra{
+    font-family: "Playfair Display", serif;
+    font-size: 30px;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.coc{
+    display: flex;
+    justify-content: center;
+    margin-left: 99px;
+    margin-right: 99px;
+    padding-top: 60px;
+}
+
+.ort{
+    font-family: "Inknut Antiqua", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.jo{
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.jo img {
+    width: 500px;
+    height: 500px;
+    border-radius: 40px;
+}
+
+.jo p{
+    font-family: "Inknut Antiqua", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+.title-2{
+    display: flex;
+    justify-content: center;
+    padding-top: 55px;
+}
+
+.fra-2{
+    font-family: "Playfair Display", serif;
+    font-size: 30px;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.coc-2{
+    display: flex;
+    justify-content: center;
+    margin-left: 99px;
+    margin-right: 99px;
+    padding-top: 60px;
+}
+
+.ort-2{
+    font-family: "Inknut Antiqua", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.carrusel-tex{
+    display:flex ;
+    padding: 0px 20px 0 20px;
+    margin-top:  4%;
+    font-family: "Playfair Display", serif;
+}
+.doña{
+    display: flex;
+    width: 20%;
+    align-items: center;
+    justify-content: center;
+}
+.doña p{
+    font-size: 30px;
+}
+
+.carousel{
+	position: relative;
+	height: 600px;
+	width: 40%;
+	margin: 0 auto;
+}
+.carousel_image{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+    border-radius: 20px;
+}
+.carousel_track-container{
+	background: lightblue;
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+    border-radius: 20px;
+}
+.carousel_track{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	position: relative;
+	height: 100%;
+	transition: transform 250ms ease-in;
+}
+.carousel_slide{
+	position: absolute;
+	top: 0;
+	left:0;
+	bottom: 0;
+	width: 100%;
+}
+.carousel_button{
+	position: absolute;
+	top:50%;
+	transform: translateY(-50%);
+	background: transparent;
+	border: 0;
+	cursor: pointer;
+}
+.carousel_button--left{
+	left: -40px;
+}
+.carousel_button--right{
+	right: -40px;
+}
+.carousel_button img{
+	width: 18px;
+}
+.carousel_nav{
+	display: flex;
+	justify-content: center;
+	padding: 10px 0;
+}
+.carousel_indicator{
+	border:0;
+	border-radius: 50%;
+	width: 15px;
+	height: 15px;
+	background: rgba(0,0,0,0.3);
+	margin: 0 10px;
+	cursor: pointer;
+}
+.carousel_indicator.current-slide{
+	background: rgba(0,0,0,0.75);
+}
+.is-hidden{
+	display: none;
+}
